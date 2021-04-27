@@ -1,5 +1,5 @@
 # pdf-page-count
-Counts the pages of PDFs in a directory and exports the counts to a CSV.
+Counts the pages of PDFs in a directory and exports the values to a CSV.
 
 
 # Requirements
