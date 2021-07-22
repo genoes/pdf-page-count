@@ -1,6 +1,6 @@
 import PyPDF2 , os
 
-pdf_directory = input('\n'"Enter absolute path to PDFs: ").strip()
+pdf_directory = input('\n'"Enter absolute path to PDF folder: ").strip()
 output_csv = "pdf-page-count.csv"
 lst = os.listdir(pdf_directory)
 lst.sort()
@@ -15,4 +15,4 @@ for filename in lst:
         with open  (output_csv, "a") as f:
             print(filename, ",", num_pages, "pages", file=f)
 
-print('\n'"Done!")
+print('\n'"Done! Page count CSV has been created.")
