@@ -15,4 +15,4 @@ for filename in lst:
         with open  (output_csv, "a") as f:
             print(filename, ",", num_pages, "pages", file=f)
 
-print('\n'"Done! Page count CSV has been created.")
+print('\n'"Done! Your page count csv has been created.")
